@@ -1,8 +1,20 @@
+import { Switch, Route } from "react-router-dom"
+import { ContainerDiv } from './StyledComponents/StyledDivs'
+import Navbar from './Components/Navbar'
+import AboutPage from './Pages/AboutPage'
+
+
 function App () {
   return (
-    <div className="App">
-      <h1>NEW</h1>
-    </div>
+    <ContainerDiv>
+      <Navbar />
+      <Switch>
+        <Route path='/AboutPage'>
+          <AboutPage />
+        </Route>
+        <h1>HOME PAGE</h1>
+      </Switch>
+    </ContainerDiv>
   )
 }
 
