@@ -83,3 +83,10 @@ export const HeroP = styled.p`
   }
 `
 
+// export const BtnWrapper = styled.div`
+//   margin-top: 32px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// `
+

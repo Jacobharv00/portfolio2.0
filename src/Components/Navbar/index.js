@@ -28,7 +28,7 @@ const Navbar = ( { toggle } ) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/email'>Email</NavBtnLink>
+            <NavBtnLink to='/email'>Email Me</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
