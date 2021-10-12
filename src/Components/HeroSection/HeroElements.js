@@ -40,7 +40,7 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #75A1BD;
+  background: #fff;
 `
 
 export const HeroContent = styled.div`
@@ -54,7 +54,7 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.h1`
-  color: #383F42;
+  color: #F7E3A1;
   font-size: 48px;
   text-align: center;
 
@@ -69,7 +69,7 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
   margin-top: 24px;
-  color: #383F42;
+  color: #F7E3A1;
   font-size: 24px;
   text-align: center;
   max-width: 600px;
