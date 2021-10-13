@@ -1,8 +1,8 @@
 import React from 'react'
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
-import { Button } from '../ButtonElement'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './InfoElements'
+// import { Button } from '../ButtonElement'
 
-const InfoSection = ( { lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2 } ) => {
+const InfoSection = ( { lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, lightTextDesc } ) => {
 
   return (
     <>
@@ -13,8 +13,13 @@ const InfoSection = ( { lightBg, id, imgStart, topLine, lightText, headline, dar
               <TextWrapper>
                 <TopLine>{ topLine }</TopLine>
                 <Heading lightText={ lightText }>{ headline }</Heading>
-                <Subtitle darkText={ darkText }>{ description }</Subtitle>
-                <BtnWrap>
+                <Subtitle
+                  darkText={ darkText }
+                  lightTextDesc={ lightTextDesc }
+                >
+                  { description }
+                </Subtitle>
+                {/* <BtnWrap>
                   <Button to='home'
                     smooth={ true }
                     duration={ 500 }
@@ -22,10 +27,10 @@ const InfoSection = ( { lightBg, id, imgStart, topLine, lightText, headline, dar
                     exact='true'
                     offset={ -80 }
                     primary={ primary ? 1 : 0 }
-                    dark={ dark ? 1 : 0 }
+                    dark={ dark ? 0 : 1 }
                     dark2={ dark2 ? 1 : 0 }
                   >{ buttonLabel }</Button>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper>
             </Column1>
             <Column2>

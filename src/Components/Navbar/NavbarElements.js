@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
-  background:#75A1BD;
+  background: ${( { scrollNav } ) => ( scrollNav ? '#277F91' : 'transparent' )};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -30,15 +30,20 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled( LinkR )`
-  color: #383F42;
+  color: #F7E3A1;
   justify-self: flex-start;
   cursor:pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display:flex;
   align-items:center;
   margin-left:24px;
-  font-weight:bold;
+  font-weight:900;
   text-decoration:none;
+
+    &:hover{
+    color: #C2D4D6;
+    transition: all 0.2s ease-in-out;
+  }
 `
 
 export const MobileIcon = styled.div`
@@ -52,7 +57,7 @@ export const MobileIcon = styled.div`
     transform:translate(-100%, 60%);
     font-size:1.8rem;
     cursor: pointer;
-    color:#383F42;
+    color:#F7E3A1;
   }
 `
 
@@ -61,7 +66,7 @@ export const NavMenu = styled.ul`
   align-items:center;
   list-style:none;
   text-align:center;
-  margin-right:--22px;
+  margin-right:-22px;
 
 
   @media screen and (max-width: 768px) {
@@ -74,16 +79,24 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled( LinkScroll )`
-  color: #383F42;
+  color: #F7E3A1;
   display:flex;
   align-items:center;
   text-decoration:none;
   padding:0 1rem;
   height: 100%;
   cursor:pointer;
+  font-weight:900;
+  font-size: 1rem;
+  margin-top: 8px;
 
   &.active {
-    border-bottom: 3px solid #F7E3A1;
+    border-bottom: 3px solid #383F42;
+  }
+
+  &:hover{
+    color: #C2D4D6;
+    transition: all 0.2s ease-in-out;
   }
 
 `
@@ -99,16 +112,17 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled( LinkR )`
   border-radius: 50px;
-  background:#383F42;
+  background:transparent;
   white-space: space nowrap;
   padding: 10px 22px;
   color: #F7E3A1;
-  font-size:16px;
+  font-size:18px;
   outline:none;
   border:none;
   cursor:pointer;
   transition: all 0.2s ease-in-out;
   text-decoration:none;
+  font-weight: 500;
 
   &:hover {
     transition: all 0.2s ease-in-out;

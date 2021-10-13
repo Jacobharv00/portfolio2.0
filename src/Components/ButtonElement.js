@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Button = styled.button`
   border-radius: 50px;
-  background: ${( { primary } ) => ( primary ? '#383F42' : '#383F42' )};
+  background: ${( { primary } ) => ( primary ? '#383F42' : '#F7E3A1' )};
   white-space: nowrap;
   padding: ${( { big } ) => ( big ? '14px 48px' : '12px 30px' )};
   color: ${( { dark } ) => ( dark ? '#F7E3A1' : '#383F42' )};

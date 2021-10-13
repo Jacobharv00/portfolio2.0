@@ -18,12 +18,12 @@ const Sidebar = ( { isOpen, toggle } ) => {
           <SidebarLink to='skills' onClick={ toggle }>
             Skills
           </SidebarLink>
-          {/* <SidebarLink to='contact' onClick={ toggle }>
-            Contact Me
-          </SidebarLink> */}
+          <SidebarLink to='contact' onClick={ toggle }>
+            Contact
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/email'>Email Me</SidebarRoute>
+          <SidebarRoute to='/emailpage'>Email Me</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

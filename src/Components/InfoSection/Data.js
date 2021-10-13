@@ -1,33 +1,36 @@
 export const homeObjBio = {
   id: 'about',
   lightBg: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Bio',
-  headline: 'This my bio',
-  description: 'My Bio',
+  headline: 'MY NAME IS JACOB HARVEY',
+  // description: 'Thanks for stopping by',
+  // remove button
   buttonLabel: 'Demo',
-  imgStart: false,
-  img: require( '../../images/svg-1.svg' ),
+  imgStart: true,
+  //fix image
+  img: require( '../../images/Me.jpg' ).default,
   alt: 'me',
   dark: true,
-  primary: true,
+  primary: false,
   darkText: false
 }
 
 export const homeObjOne = {
   id: 'projects',
   lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Projects',
-  headline: 'See Below',
-  description: 'Check Out My Projects',
+  headline: 'All of my projects are hosted live and please feel free to go to the live site and play around',
+  description: 'PROJECT CARDS GO HERE WITH DEMO LINKS AND GITHUB LINKS',
   buttonLabel: 'Demo',
   imgStart: false,
-  img: require( '../../images/svg-1.svg' ),
+  // CHANGE IMG TO BE PROJECT RELATED
+  img: require( '../../images/svg-1.svg' ).default,
   alt: 'project',
-  dark: true,
+  dark: false,
   primary: true,
   darkText: false
 }
@@ -38,11 +41,12 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Skills',
-  headline: 'See Below',
-  description: 'Check Out My Skills',
-  buttonLabel: 'Skills',
-  imgStart: false,
-  img: require( '../../images/svg-3.svg' ),
+  headline: 'JAVASCRIPT, REACT, RUBY, RAILS, HEROKU, NETLIFY, SQLITE3, POSTGRESQL, STYLED COMPONENTS, MATERIAL UI, CSS',
+  description: 'ICONS GO HERE',
+  // buttonLabel: 'Skills',
+  imgStart: true,
+  // CHANGE IMG TO SKILLS RELATED IMG
+  img: require( '../../images/svg-3.svg' ).default,
   alt: 'project',
   dark: true,
   primary: false,
@@ -52,16 +56,17 @@ export const homeObjTwo = {
 export const homeObjThree = {
   id: 'contact',
   lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Contact Me',
-  headline: 'Contact',
-  description: 'Contact',
-  buttonLabel: 'Demo',
+  headline: 'Hop over to the email page to send me a email, or head over to any of my social media platforms to get in touch!',
+  // description: 'Lets Connect',
+  buttonLabel: 'Icons go here',
   imgStart: false,
-  img: require( '../../images/project-1.svg' ),
+  // CHANGE IMG TO SOMETHING RELATED TO CONTACT ME
+  img: require( '../../images/svg-4.svg' ).default,
   alt: 'project',
-  dark: true,
+  dark: false,
   primary: true,
   darkText: false
 }

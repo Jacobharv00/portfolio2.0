@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
-  color: #75A1Bd;
-  background:${( { lightBg } ) => ( lightBg ? '#75A1BD' : '#F7E3A1' )};
-  
+  color: #383F42;
+  background:${( { lightBg } ) => ( lightBg ? '#277F91' : '#F7E3A1' )};
+
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -65,7 +65,7 @@ export const Heading = styled.h1`
   font-size: 25px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${( { lightText } ) => ( lightText ? '#383F42' : '#F7E3A1' )};
+  color: ${( { lightText } ) => ( lightText ? '#F7E3A1' : '#383F42' )};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -77,7 +77,8 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 20px;
   line-height: 24px;
-  color: ${( { darkText } ) => ( darkText ? '#F7E3A1' : '#383F42' )};
+  color: ${( { darkText } ) => ( darkText ? '#383F42' : '#F7E3A1' )};
+  color: ${( { lightTextDesc } ) => ( lightTextDesc ? '#F7E3A1' : '#383F42' )};
 `
 
 export const BtnWrap = styled.div`
@@ -94,4 +95,5 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  border-radius: 50px;
 `
