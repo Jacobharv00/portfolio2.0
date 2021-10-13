@@ -30,9 +30,8 @@ export const homeObjOne = {
   topLine: 'Projects',
   headline: 'All of my projects are hosted live. Please feel free to go to the live site and play around!',
   description: 'PROJECT CARDS',
-  buttonLabel: 'Demo',
+  // buttonLabel: 'Demo',
   imgStart: false,
-  // CHANGE IMG TO BE PROJECT RELATED
   img: require( '../../images/projects.svg' ).default,
   alt: 'project',
   dark: false,
