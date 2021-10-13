@@ -10,7 +10,7 @@ const Sidebar = ( { isOpen, toggle } ) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to='about' onClick={ toggle }>
-            About
+            Bio
           </SidebarLink>
           <SidebarLink to='projects' onClick={ toggle }>
             Projects
@@ -19,7 +19,7 @@ const Sidebar = ( { isOpen, toggle } ) => {
             Skills
           </SidebarLink>
           <SidebarLink to='contact' onClick={ toggle }>
-            Contact
+            Connect
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

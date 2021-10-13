@@ -15,8 +15,7 @@ const InfoSection = ( { lightBg, id, imgStart, topLine, lightText, headline, dar
                 <Heading lightText={ lightText }>{ headline }</Heading>
                 <Subtitle
                   darkText={ darkText }
-                  lightTextDesc={ lightTextDesc }
-                >
+                  lightTextDesc={ lightTextDesc }>
                   { description }
                 </Subtitle>
                 {/* <BtnWrap>

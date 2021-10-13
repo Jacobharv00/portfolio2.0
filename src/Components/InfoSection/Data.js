@@ -1,13 +1,18 @@
+import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium } from "react-icons/fa"
+import { DiRubyRough, DiRor, DiHeroku, DiPostgresql, DiSqllite, DiGithubBadge, DiCss3 } from 'react-icons/di'
+import { SiNetlify, SiStyledcomponents, SiMaterialui } from 'react-icons/si'
+
+
 export const homeObjBio = {
   id: 'about',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
   topLine: 'Bio',
-  headline: 'MY NAME IS JACOB HARVEY',
-  // description: 'Thanks for stopping by',
+  headline: 'Hello! My name is Jacob Harvey and I am Full Stack Software Engineer with a passion for creating captivating web applications.',
+  // description: 'I enjoy reading, surfing, traveling, and learning new things everyday.',
   // remove button
-  buttonLabel: 'Demo',
+  // buttonLabel: 'Demo',
   imgStart: true,
   //fix image
   img: require( '../../images/Me.jpg' ).default,
@@ -23,12 +28,12 @@ export const homeObjOne = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Projects',
-  headline: 'All of my projects are hosted live and please feel free to go to the live site and play around',
-  description: 'PROJECT CARDS GO HERE WITH DEMO LINKS AND GITHUB LINKS',
+  headline: 'All of my projects are hosted live. Please feel free to go to the live site and play around!',
+  description: 'PROJECT CARDS',
   buttonLabel: 'Demo',
   imgStart: false,
   // CHANGE IMG TO BE PROJECT RELATED
-  img: require( '../../images/svg-1.svg' ).default,
+  img: require( '../../images/projects.svg' ).default,
   alt: 'project',
   dark: false,
   primary: true,
@@ -41,13 +46,26 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Skills',
-  headline: 'JAVASCRIPT, REACT, RUBY, RAILS, HEROKU, NETLIFY, SQLITE3, POSTGRESQL, STYLED COMPONENTS, MATERIAL UI, CSS',
-  description: 'ICONS GO HERE',
+  headline: 'JavaScript, React, Ruby, Rails, Heroku, Netlify, GitHub, SQLite3, PostgresQL, Styled Components, Material UI, CSS',
+  description: <>
+    <FaJsSquare />
+    <FaReact />
+    <DiRubyRough />
+    <DiRor />
+    <DiHeroku />
+    <SiNetlify />
+    <DiGithubBadge />
+    <DiSqllite />
+    <DiPostgresql />
+    <SiStyledcomponents />
+    <SiMaterialui />
+    <DiCss3 />
+  </>,
   // buttonLabel: 'Skills',
   imgStart: true,
   // CHANGE IMG TO SKILLS RELATED IMG
-  img: require( '../../images/svg-3.svg' ).default,
-  alt: 'project',
+  img: require( '../../images/skills.svg' ).default,
+  alt: 'skills',
   dark: true,
   primary: false,
   darkText: true
@@ -58,16 +76,20 @@ export const homeObjThree = {
   lightBg: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Contact Me',
-  headline: 'Hop over to the email page to send me a email, or head over to any of my social media platforms to get in touch!',
-  // description: 'Lets Connect',
-  buttonLabel: 'Icons go here',
+  topLine: 'Connect',
+  // headline: '',
+  description: <>
+    <a href="https://www.linkedin.com/in/jacobharvey19" target="_blank" rel='noreferrer'><FaLinkedin style={ { color: '#75A1BD' } } /></a>
+    <a href="https://www.github.com/Jacobharv00" target="_blank" rel='noreferrer'><FaGithubAlt style={ { color: '#75A1BD' } } /></a>
+    <a href="https://jacobharv00.medium.com" target="_blank" rel='noreferrer'><FaMedium style={ { color: '#75A1BD' } } /></a>
+  </>,
+  // buttonLabel: '',
   imgStart: false,
-  // CHANGE IMG TO SOMETHING RELATED TO CONTACT ME
-  img: require( '../../images/svg-4.svg' ).default,
-  alt: 'project',
+  img: require( '../../images/connect.svg' ).default,
+  alt: 'icons',
   dark: false,
   primary: true,
   darkText: false
 }
+
 

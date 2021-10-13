@@ -10,7 +10,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: #75A1BD;
+  background: #277F91;
 `
 
 export const FormWrap = styled.div`
@@ -30,7 +30,11 @@ export const Icon = styled( Link )`
   text-decoration: none;
   color: #F7E3A1;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 5rem;
+
+  &:hover {
+    color: #383F42;
+  }
 
   @media screen and (max-width: 480px) {
     margin-left: 16px;
@@ -50,8 +54,8 @@ export const FormContent = styled.div`
 `
 
 export const Form = styled.form`
-  background: #75A1BD;
-  max-width: 800px;
+  background: #277F91;
+  max-width: 1200px;
   height: auto;
   width: 100%;
   z-index: 1;
@@ -59,7 +63,8 @@ export const Form = styled.form`
   margin: 0 auto;
   padding: 80px 32px;
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.9);
+  /* box-shadow: 0 1px 3px rgba(0,0,0,0.9); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
   @media screen and (max-width: 400px) {
     padding: 32px 32px;
@@ -81,12 +86,14 @@ export const FormLabel = styled.label`
   color: #383F42;
 `
 
-export const FormInput = styled.input`
+export const FormInput = styled.textarea`
+resize: none;
   padding: 16px 16px;
-  height: 20vh;
+  height: 25vh;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
+  font-size: 1.5rem;
 `
 
 export const FormButton = styled.button`

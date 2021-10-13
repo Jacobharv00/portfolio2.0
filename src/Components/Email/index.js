@@ -9,10 +9,10 @@ const Email = () => {
         <FormWrap>
           <Icon to='/'>Home</Icon>
           <FormContent>
-            <Form action='#'>
+            <Form action='mailto:jacobharv00@gmail.com'>
               <FormH1>Email Me!</FormH1>
-              <FormLabel htmlFor='for'>Say Hi</FormLabel>
-              <FormInput type='text' required />
+              <FormLabel htmlFor='email'>Email:</FormLabel>
+              <FormInput type='text' placeholder='Type Here' required />
               <FormButton type='submit'>SEND</FormButton>
               <Text>Talk Soon!</Text>
             </Form>

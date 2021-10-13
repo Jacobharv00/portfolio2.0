@@ -52,12 +52,17 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   color: #383F42;
-  font-size: 48px;
+  font-size: 60px;
   line-height: 16px;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
+
+@media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
+
 `
 
 export const Heading = styled.h1`
@@ -74,9 +79,9 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 20px;
-  line-height: 24px;
+  margin-bottom: 25px;
+  font-size: 50px;
+  line-height: 25px;
   color: ${( { darkText } ) => ( darkText ? '#383F42' : '#F7E3A1' )};
   color: ${( { lightTextDesc } ) => ( lightTextDesc ? '#F7E3A1' : '#383F42' )};
 `
@@ -96,4 +101,6 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
   border-radius: 50px;
+  background-color: #277F91;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 35px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 `
