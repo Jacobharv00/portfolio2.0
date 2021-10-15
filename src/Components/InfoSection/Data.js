@@ -1,7 +1,7 @@
-import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium } from "react-icons/fa"
-import { DiRubyRough, DiRor, DiHeroku, DiPostgresql, DiSqllite, DiGithubBadge, DiCss3 } from 'react-icons/di'
+import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja } from "react-icons/fa"
+import { DiRubyRough, DiRor, DiHeroku, DiPostgresql, DiSqllite, DiGithubBadge, DiCss3, DiVisualstudio } from 'react-icons/di'
 import { SiNetlify, SiStyledcomponents, SiMaterialui } from 'react-icons/si'
-
+import { AiFillHtml5 } from 'react-icons/ai'
 
 export const homeObjBio = {
   id: 'about',
@@ -45,7 +45,7 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Skills',
-  headline: 'JavaScript, React, Ruby, Rails, Heroku, Netlify, GitHub, SQLite3, PostgresQL, Styled Components, Material UI, CSS',
+  headline: 'JavaScript, React, Ruby, Rails, Heroku, Netlify, GitHub, SQLite3, PostgresQL, Styled Components, Material UI, CSS, HTML, Visual Studio',
   description: <>
     <FaJsSquare />
     <FaReact />
@@ -59,6 +59,8 @@ export const homeObjTwo = {
     <SiStyledcomponents />
     <SiMaterialui />
     <DiCss3 />
+    <AiFillHtml5 />
+    <DiVisualstudio />
   </>,
   // buttonLabel: 'Skills',
   imgStart: true,
@@ -76,13 +78,16 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Connect',
-  // headline: '',
+  // headline: 'With Me!',
   description: <>
     <a href="https://www.linkedin.com/in/jacobharvey19" target="_blank" rel='noreferrer'><FaLinkedin style={ { color: '#75A1BD' } } /></a>
     <a href="https://www.github.com/Jacobharv00" target="_blank" rel='noreferrer'><FaGithubAlt style={ { color: '#75A1BD' } } /></a>
     <a href="https://jacobharv00.medium.com" target="_blank" rel='noreferrer'><FaMedium style={ { color: '#75A1BD' } } /></a>
+    <a href="mailto:https://jacobharv00@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope style={ { color: '#75A1BD' } } /></a>
+    {/* Change path for resume to load my pdf of resume */ }
+    <a href="/" target="_blank" rel="noreferrer"><FaUserNinja style={ { color: '#75A1BD' } } /></a>
   </>,
-  // buttonLabel: '',
+  // buttonLabel: 'Thanks!',
   imgStart: false,
   img: require( '../../images/connect.svg' ).default,
   alt: 'icons',

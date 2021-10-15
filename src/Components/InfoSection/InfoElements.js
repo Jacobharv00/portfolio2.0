@@ -48,6 +48,7 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+  
 `
 
 export const TopLine = styled.p`
@@ -77,7 +78,8 @@ export const Heading = styled.h1`
   }
 `
 
-export const Subtitle = styled.p`
+export const Subtitle = styled.a`
+
   max-width: 440px;
   margin-bottom: 25px;
   font-size: 50px;
