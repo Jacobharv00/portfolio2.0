@@ -1,7 +1,8 @@
-import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja } from "react-icons/fa"
+import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja, FaUserAstronaut } from "react-icons/fa"
 import { DiRubyRough, DiRor, DiHeroku, DiPostgresql, DiSqllite, DiGithubBadge, DiCss3, DiVisualstudio } from 'react-icons/di'
 import { SiNetlify, SiStyledcomponents, SiMaterialui } from 'react-icons/si'
 import { AiFillHtml5 } from 'react-icons/ai'
+import { GiDinosaurRex, GiFilmProjector, GiWalk } from 'react-icons/gi'
 
 export const homeObjBio = {
   id: 'about',
@@ -9,7 +10,7 @@ export const homeObjBio = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Bio',
-  headline: 'Hello! My name is Jacob Harvey and I am Full Stack Software Engineer with a passion for creating captivating web applications.',
+  headline: 'Hello! My name is Jacob Harvey, I am Full Stack Software Engineer with a passion for creating captivating web applications.',
   // description: 'I enjoy reading, surfing, traveling, and learning new things everyday.',
   // remove button
   // buttonLabel: 'Demo',
@@ -28,11 +29,16 @@ export const homeObjOne = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Projects',
-  headline: 'All of my projects are hosted live. Please feel free to go to the live site and play around!',
-  description: 'PROJECT CARDS',
+  headline: 'LOUNGEZILLA, Movie-Lounge, Future, Hangman. Click any icon below to visit the live sites.',
+  description: <>
+    <a href="https://loungezilla.herokuapp.com" target="_blank" rel="noreferrer"><GiDinosaurRex className='icon' /></a>
+    <a href="https://movie-lounge.netlify.app" target="_blank" rel='noreferrer'><GiFilmProjector className='icon' /></a>
+    <a href="https://jacobharv-future.netlify.app" target="_blank" rel='noreferrer'><FaUserAstronaut className='icon' /></a>
+    <a href="https://harvey-hangman.netlify.app" target="_blank" rel="noreferrer"><GiWalk className='icon' /></a>
+  </>,
   // buttonLabel: 'Demo',
   imgStart: false,
-  img: require( '../../images/projects.svg' ).default,
+  img: require( '../../images/loungezilla.png' ).default,
   alt: 'project',
   dark: false,
   primary: true,
@@ -80,12 +86,12 @@ export const homeObjThree = {
   topLine: 'Connect',
   // headline: 'With Me!',
   description: <>
-    <a href="https://www.linkedin.com/in/jacobharvey19" target="_blank" rel='noreferrer'><FaLinkedin style={ { color: '#75A1BD' } } /></a>
-    <a href="https://www.github.com/Jacobharv00" target="_blank" rel='noreferrer'><FaGithubAlt style={ { color: '#75A1BD' } } /></a>
-    <a href="https://jacobharv00.medium.com" target="_blank" rel='noreferrer'><FaMedium style={ { color: '#75A1BD' } } /></a>
-    <a href="mailto:https://jacobharv00@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope style={ { color: '#75A1BD' } } /></a>
+    <a href="https://www.linkedin.com/in/jacobharvey19" target="_blank" rel='noreferrer'><FaLinkedin className='icon' /></a>
+    <a href="https://www.github.com/Jacobharv00" target="_blank" rel='noreferrer'><FaGithubAlt className='icon' /></a>
+    <a href="https://jacobharv00.medium.com" target="_blank" rel='noreferrer'><FaMedium className='icon' /></a>
+    <a href="mailto:https://jacobharv00@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope className='icon' /></a>
     {/* Change path for resume to load my pdf of resume */ }
-    <a href="/" target="_blank" rel="noreferrer"><FaUserNinja style={ { color: '#75A1BD' } } /></a>
+    <a href="/" target="_blank" rel="noreferrer"><FaUserNinja className='icon' /></a>
   </>,
   // buttonLabel: 'Thanks!',
   imgStart: false,

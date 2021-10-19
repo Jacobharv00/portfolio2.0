@@ -79,7 +79,6 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.a`
-
   max-width: 440px;
   margin-bottom: 25px;
   font-size: 50px;
@@ -102,7 +101,7 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
-  border-radius: 50px;
+  border-radius: 25px;
   background-color: #277F91;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 35px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 `
