@@ -33,11 +33,12 @@ export const NavLogo = styled( LinkR )`
   color: #F7E3A1;
   justify-self: flex-start;
   cursor:pointer;
-  font-size: 2rem;
+  font-size: 2.5rem;
   display:flex;
   align-items:center;
-  margin-left:24px;
-  font-weight:900;
+  margin-top: 10px;
+  margin-left: 25px;
+  font-weight: 900;
   text-decoration:none;
 
     &:hover{
@@ -87,8 +88,8 @@ export const NavLinks = styled( LinkScroll )`
   height: 100%;
   cursor:pointer;
   font-weight:900;
-  font-size: 1rem;
-  margin-top: 8px;
+  font-size: 1.2rem;
+  margin-top: 10px;
 
   &.active {
     border-bottom: 3px solid #383F42;
@@ -123,11 +124,13 @@ export const NavBtnLink = styled( LinkR )`
   transition: all 0.2s ease-in-out;
   text-decoration:none;
   font-weight: 500;
+  margin-top: 20px;
 
   &:hover {
     transition: all 0.2s ease-in-out;
     background:#F7E3A1;
     color:#383F42;
+    font-weight: 700;
   }
 `
 

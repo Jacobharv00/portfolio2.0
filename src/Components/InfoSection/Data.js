@@ -10,8 +10,8 @@ export const homeObjBio = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Bio',
-  headline: 'Hello! My name is Jacob Harvey, I am Full Stack Software Engineer with a passion for creating captivating web applications.',
-  // description: 'I enjoy reading, surfing, traveling, and learning new things everyday.',
+  headline: 'Hello! My name is Jacob Harvey, I am Full Stack Software Engineer with enthusiasm for creating captivating web applications. When I am not having a blast programming I love to surf, snowboard, read, travel, and spend time with my family.',
+  //description: '',
   // remove button
   // buttonLabel: 'Demo',
   imgStart: true,
@@ -29,7 +29,7 @@ export const homeObjOne = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Projects',
-  headline: 'LOUNGEZILLA, Movie-Lounge, Future, Hangman. Click any icon below to visit the live sites.',
+  headline: 'LOUNGEZILLA, Movie-Lounge, Future, Hangman. Click any icon below to visit the live sites and play around!',
   description: <>
     <a href="https://loungezilla.herokuapp.com" target="_blank" rel="noreferrer"><GiDinosaurRex className='icon' /></a>
     <a href="https://movie-lounge.netlify.app" target="_blank" rel='noreferrer'><GiFilmProjector className='icon' /></a>
@@ -51,7 +51,7 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Skills',
-  headline: 'JavaScript, React, Ruby, Rails, Heroku, Netlify, GitHub, SQLite3, PostgresQL, Styled Components, Material UI, CSS, HTML, Visual Studio',
+  headline: 'JavaScript | React | Ruby | Rails | Heroku | Netlify | GitHub | SQLite3 | PostgresQL | Styled Components | Material UI | CSS | HTML | Visual Studio',
   description: <>
     <FaJsSquare />
     <FaReact />
