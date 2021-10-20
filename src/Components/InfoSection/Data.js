@@ -4,6 +4,7 @@ import { SiNetlify, SiStyledcomponents, SiMaterialui } from 'react-icons/si'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { GiDinosaurRex, GiFilmProjector, GiWalk } from 'react-icons/gi'
 
+
 export const homeObjBio = {
   id: 'about',
   lightBg: true,
@@ -17,7 +18,7 @@ export const homeObjBio = {
   imgStart: true,
   //fix image
   img: require( '../../images/Me.jpg' ).default,
-  alt: 'me',
+  alt: 'Jacob Harvey',
   dark: true,
   primary: false,
   darkText: false
@@ -39,7 +40,7 @@ export const homeObjOne = {
   // buttonLabel: 'Demo',
   imgStart: false,
   img: require( '../../images/loungezilla.png' ).default,
-  alt: 'project',
+  alt: 'loungezilla',
   dark: false,
   primary: true,
   darkText: false
@@ -91,12 +92,12 @@ export const homeObjThree = {
     <a href="https://jacobharv00.medium.com" target="_blank" rel='noreferrer'><FaMedium className='icon' /></a>
     <a href="mailto:https://jacobharv00@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope className='icon' /></a>
     {/* Change path for resume to load my pdf of resume */ }
-    <a href="/" target="_blank" rel="noreferrer"><FaUserNinja className='icon' /></a>
+    <a href={ require( '../../images/resume.pdf' ) } target="_blank" rel="noreferrer"><FaUserNinja className='icon' /></a>
   </>,
   // buttonLabel: 'Thanks!',
   imgStart: false,
   img: require( '../../images/connect.svg' ).default,
-  alt: 'icons',
+  alt: 'connect',
   dark: false,
   primary: true,
   darkText: false

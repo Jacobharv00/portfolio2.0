@@ -63,7 +63,6 @@ export const Form = styled.form`
   margin: 0 auto;
   padding: 80px 32px;
   border-radius: 4px;
-  /* box-shadow: 0 1px 3px rgba(0,0,0,0.9); */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
   @media screen and (max-width: 400px) {
@@ -87,9 +86,9 @@ export const FormLabel = styled.label`
 `
 
 export const FormInput = styled.textarea`
-resize: none;
+  resize: none;
   padding: 16px 16px;
-  height: 25vh;
+  height: 5vh;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
