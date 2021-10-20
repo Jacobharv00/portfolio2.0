@@ -92,7 +92,7 @@ export const homeObjThree = {
     <a href="https://jacobharv00.medium.com" target="_blank" rel='noreferrer'><FaMedium className='icon' /></a>
     <a href="mailto:https://jacobharv00@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope className='icon' /></a>
     {/* Change path for resume to load my pdf of resume */ }
-    <a href={ require( '../../images/resume.pdf' ) } target="_blank" rel="noreferrer"><FaUserNinja className='icon' /></a>
+    <a href={ require( '../../images/resume.png' ).default } target="_blank" rel="noreferrer"><FaUserNinja className='icon' /></a>
   </>,
   // buttonLabel: 'Thanks!',
   imgStart: false,
