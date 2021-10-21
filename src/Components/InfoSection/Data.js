@@ -10,13 +10,11 @@ export const homeObjBio = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Bio',
+  topLine: 'bio',
   headline: 'Hello! My name is Jacob Harvey, I am Full Stack Software Engineer with enthusiasm for creating captivating web applications. When I am not having a blast programming I love to surf, snowboard, read, travel, and spend time with my family.',
   //description: '',
-  // remove button
   // buttonLabel: 'Demo',
   imgStart: true,
-  //fix image
   img: require( '../../images/Me.jpg' ).default,
   alt: 'Jacob Harvey',
   dark: true,
@@ -71,7 +69,6 @@ export const homeObjTwo = {
   </>,
   // buttonLabel: 'Skills',
   imgStart: true,
-  // CHANGE IMG TO SKILLS RELATED IMG
   img: require( '../../images/skills.svg' ).default,
   alt: 'skills',
   dark: true,
@@ -85,16 +82,15 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Connect',
-  // headline: 'With Me!',
+  // headline: '',
   description: <>
     <a href="https://www.linkedin.com/in/jacobharvey19" target="_blank" rel='noreferrer'><FaLinkedin className='icon' /></a>
     <a href="https://www.github.com/Jacobharv00" target="_blank" rel='noreferrer'><FaGithubAlt className='icon' /></a>
     <a href="https://jacobharv00.medium.com" target="_blank" rel='noreferrer'><FaMedium className='icon' /></a>
     <a href="mailto:https://jacobharv00@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope className='icon' /></a>
-    {/* Change path for resume to load my pdf of resume */ }
     <a href={ require( '../../images/resume.png' ).default } target="_blank" rel="noreferrer"><FaUserNinja className='icon' /></a>
   </>,
-  // buttonLabel: 'Thanks!',
+  // buttonLabel: '',
   imgStart: false,
   img: require( '../../images/connect.svg' ).default,
   alt: 'connect',

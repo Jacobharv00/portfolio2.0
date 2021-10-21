@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const InfoContainer = styled.div`
   color: #383F42;
   background:${( { lightBg } ) => ( lightBg ? '#277F91' : '#F7E3A1' )};
+  height: 100vh;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -22,6 +23,7 @@ export const InfoWrapper = styled.div`
 `
 
 export const InfoRow = styled.div`
+  margin-top: 20vh;
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
@@ -29,6 +31,7 @@ export const InfoRow = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-areas: ${( { imgStart } ) => ( imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'` )};
+    margin-top: 2vh;
   }
 `
 
@@ -93,13 +96,13 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  max-width: 425px;
   height: 100%;
 `
 
 export const Img = styled.img`
   width: 100%;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 10px;
   padding-right: 0;
   border-radius: 25px;
   background-color: #277F91;
