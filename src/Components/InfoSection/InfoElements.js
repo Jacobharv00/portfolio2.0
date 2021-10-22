@@ -32,8 +32,14 @@ export const InfoRow = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-areas: ${( { imgStart } ) => ( imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'` )};
-    margin-top: 2vh;
+    margin-top: 5vh;
   }
+
+    @media screen and (max-width: 480px) {
+    grid-template-areas: ${( { imgStart } ) => ( imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'` )};
+    margin-top: -15vh;
+  }
+
 `
 
 export const Column1 = styled.div`
@@ -79,6 +85,10 @@ export const Heading = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 20px;
   }
+
+    @media screen and (max-width: 550px) {
+      font-size: 15px;
+  }
 `
 
 export const Subtitle = styled.a`
@@ -88,6 +98,15 @@ export const Subtitle = styled.a`
   line-height: 25px;
   color: ${( { darkText } ) => ( darkText ? '#383F42' : '#F7E3A1' )};
   color: ${( { lightTextDesc } ) => ( lightTextDesc ? '#F7E3A1' : '#383F42' )};
+
+    @media screen and (max-width: 480px) {
+    font-size: 25px;
+  }
+
+    @media screen and (max-width: 550px) {
+    font-size: 25px;
+  }
+
 `
 
 export const BtnWrap = styled.div`
@@ -98,6 +117,27 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 425px;
   height: 100%;
+
+    /* @media screen and (max-width: 350px) {
+    width: 70%;
+    margin-top: -500vh;
+  } */
+
+  @media screen and (max-width: 480px) {
+    width: 70%;
+    margin-top: -260px;
+  }
+
+    @media screen and (max-width: 550px) {
+      width: 70%;
+      margin-top: -150px;
+  }
+
+    @media screen and (max-width: 1300px) and (min-width: 780px) {
+      width: 60%;
+      margin-top: -10vh;
+    }
+
 `
 
 export const Img = styled.img`
@@ -107,4 +147,17 @@ export const Img = styled.img`
   border-radius: 25px;
   background-color: #277F91;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 35px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    @media screen and (max-width: 768px) {
+    width: 50%;
+    margin-top: -350px;
+  }
+
+    @media screen and (max-width: 350px) {
+    width: 70%;
+    margin-bottom: 20vh;
+  }
+
+  
+
 `

@@ -39,6 +39,10 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  @media screen and (max-width: 480px) {
+    margin-top: -100vh;
+  }
 `
 
 export const HeroH1 = styled.h1`
@@ -52,6 +56,7 @@ export const HeroH1 = styled.h1`
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
+  
   }
 `
 
