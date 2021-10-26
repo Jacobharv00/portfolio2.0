@@ -30,10 +30,22 @@ export const homeObjOne = {
   topLine: 'Projects',
   headline: 'LOUNGEZILLA, Movie-Lounge, Future, Hangman. Click any icon below to visit the live sites and play around!',
   description: <>
-    <a href="https://loungezilla.herokuapp.com" target="_blank" rel="noreferrer"><GiDinosaurRex className='icon' /></a>
-    <a href="https://movie-lounge.netlify.app" target="_blank" rel='noreferrer'><GiFilmProjector className='icon' /></a>
-    <a href="https://jacobharv-future.netlify.app" target="_blank" rel='noreferrer'><FaUserAstronaut className='icon' /></a>
-    <a href="https://harvey-hangman.netlify.app" target="_blank" rel="noreferrer"><GiWalk className='icon' /></a>
+    <a className='nav-link' href="https://loungezilla.herokuapp.com" target="_blank" rel="noreferrer">
+      <GiDinosaurRex className='icon' />
+      <span className='nav-text'>LOUNGEZILLA</span>
+    </a>
+    <a className='nav-link' href="https://movie-lounge.netlify.app" target="_blank" rel='noreferrer'>
+      <GiFilmProjector className='icon' />
+      <span className='nav-text'>Movie Lounge</span>
+    </a>
+    <a className='nav-link' href="https://jacobharv-future.netlify.app" target="_blank" rel='noreferrer'>
+      <FaUserAstronaut className='icon' />
+      <span className='nav-text'>Future</span>
+    </a>
+    <a className='nav-link' href="https://harvey-hangman.netlify.app" target="_blank" rel="noreferrer">
+      <GiWalk className='icon' />
+      <span className='nav-text'>Hangman</span>
+    </a>
   </>,
   // buttonLabel: 'Demo',
   imgStart: false,

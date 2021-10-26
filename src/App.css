@@ -6,6 +6,8 @@
 }
 
 .icon {
+  cursor: pointer;
+  padding-bottom: 5px;
   padding-left: 5px;
   margin-top: 4vh;
   height: 5vh;
@@ -18,3 +20,28 @@
   color:#277F91;
   transition: all 0.4s ease 0s;
 }
+
+.nav-link .nav-text {
+  display: grid;
+  transform: translateX(-100%);
+  width: auto;
+  color:#75A1BD;
+  transition: all 0.4s ease 0s;
+  font-size: 2rem;
+}
+
+.nav-link .nav-text {
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link:hover .nav-text {
+  transform: translateX(0);
+  visibility: visible;
+  color:#277F91;
+  transition: all 0.4s ease 0s;
+}
+

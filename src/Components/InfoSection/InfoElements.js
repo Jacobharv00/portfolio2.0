@@ -118,14 +118,10 @@ export const ImgWrap = styled.div`
   max-width: 425px;
   height: 100%;
 
-    /* @media screen and (max-width: 350px) {
-    width: 70%;
-    margin-top: -500vh;
-  } */
-
   @media screen and (max-width: 480px) {
     width: 70%;
-    margin-top: -260px;
+    justify-content: center;
+    align-items: center;
   }
 
     @media screen and (max-width: 550px) {
@@ -147,17 +143,16 @@ export const Img = styled.img`
   border-radius: 25px;
   background-color: #277F91;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 35px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-    @media screen and (max-width: 768px) {
-    width: 50%;
-    margin-top: -350px;
-  }
-
-    @media screen and (max-width: 350px) {
-    width: 70%;
+  
+  @media screen and (max-width: 375px) {
+    max-width: 100%;
+    min-width: 120px;
+    margin-left: 42vw;
     margin-bottom: 20vh;
   }
 
-  
-
+    @media screen and (max-width: 768px) {
+    width: 50%;
+    margin-top: -50vh;
+  }
 `
