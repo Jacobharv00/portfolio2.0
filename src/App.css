@@ -8,16 +8,21 @@
 .icon {
   cursor: pointer;
   padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
+  margin-left: 5px;
   margin-top: 4vh;
   height: 5vh;
   width: auto;
-  color:#75A1BD;
+  color:#277F91;
   transition: all 0.4s ease 0s;
+  border: solid 1px #277F91;
+  box-shadow: 2px 1px 2px rgb(0 0 0 / 40%);
+  -webkit-box-shadow: 2px 1px 2px rgb(0 0 0 / 40%);
+  border-radius: 20px;
 }
 
 .icon:hover {
-  color:#277F91;
+  color:#383F42;
   transition: all 0.4s ease 0s;
 }
 
@@ -28,6 +33,7 @@
   color:#75A1BD;
   transition: all 0.4s ease 0s;
   font-size: 2rem;
+  
 }
 
 .nav-link .nav-text {
@@ -44,4 +50,16 @@ a {
   color:#277F91;
   transition: all 0.4s ease 0s;
 }
+
+.arrow {
+  color:#277F91;
+  font-size: 5rem;
+  margin-bottom: -35vh;
+  margin-left: 15vw;
+  box-shadow: inset 0px 2px 36px 0px rgb(0 0 0 / 80%);
+  background: transparent;
+  border-radius: 80px;
+  cursor: default;
+}
+
 

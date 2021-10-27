@@ -1,4 +1,4 @@
-import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja, FaUserAstronaut } from "react-icons/fa"
+import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja, FaUserAstronaut, FaArrowCircleDown } from "react-icons/fa"
 import { DiRubyRough, DiRor, DiHeroku, DiPostgresql, DiSqllite, DiGithubBadge, DiCss3, DiVisualstudio } from 'react-icons/di'
 import { SiNetlify, SiStyledcomponents, SiMaterialui } from 'react-icons/si'
 import { AiFillHtml5 } from 'react-icons/ai'
@@ -15,7 +15,7 @@ export const homeObjBio = {
   //description: '',
   // buttonLabel: 'Demo',
   imgStart: true,
-  img: require( '../../images/Me.jpg' ).default,
+  img: require( '../../images/me.jpg' ).default,
   alt: 'Jacob Harvey',
   dark: true,
   primary: false,
@@ -101,6 +101,7 @@ export const homeObjThree = {
     <a href="https://jacobharv00.medium.com" target="_blank" rel='noreferrer'><FaMedium className='icon' /></a>
     <a href="mailto:https://jacobharv00@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope className='icon' /></a>
     <a href={ require( '../../images/resume.png' ).default } target="_blank" rel="noreferrer"><FaUserNinja className='icon' /></a>
+    <FaArrowCircleDown className='arrow' />
   </>,
   // buttonLabel: '',
   imgStart: false,
@@ -110,5 +111,6 @@ export const homeObjThree = {
   primary: true,
   darkText: false
 }
+
 
 

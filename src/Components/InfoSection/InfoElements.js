@@ -24,7 +24,7 @@ export const InfoWrapper = styled.div`
 `
 
 export const InfoRow = styled.div`
-  margin-top: 20vh;
+  margin-top: 8vh;
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
@@ -138,11 +138,16 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
   width: 100%;
+  height: auto;
   margin: 0 0 10px 10px;
   padding-right: 0;
   border-radius: 25px;
   background-color: #277F91;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 35px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: sticky;
+  filter: grayscale(25%);
+  
+
   
   @media screen and (max-width: 375px) {
     max-width: 100%;
@@ -155,4 +160,5 @@ export const Img = styled.img`
     width: 50%;
     margin-top: -50vh;
   }
+  
 `

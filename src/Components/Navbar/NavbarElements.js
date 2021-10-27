@@ -33,13 +33,13 @@ export const NavLogo = styled( LinkR )`
   color: #F7E3A1;
   justify-self: flex-start;
   cursor:pointer;
-  font-size: 2.5rem;
+  font-size: 3rem;
   display:flex;
   align-items:center;
   margin-top: 10px;
   margin-left: 25px;
   font-weight: 900;
-  text-decoration:none;
+  text-decoration:none; 
 
     &:hover{
     color: #C2D4D6;

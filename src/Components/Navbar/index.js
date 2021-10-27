@@ -26,7 +26,7 @@ const Navbar = ( { toggle } ) => {
     <>
       <Nav scrollNav={ scrollNav }>
         <NavbarContainer>
-          <NavLogo to='/' onClick={ toggleHome }>Jacob Harvey</NavLogo>
+          <NavLogo to='/' onClick={ toggleHome }>JH</NavLogo>
           <MobileIcon onClick={ toggle }>
             <FaBars />
           </MobileIcon>
@@ -37,8 +37,7 @@ const Navbar = ( { toggle } ) => {
                 duration={ 1000 }
                 spy={ true }
                 exact='true'
-                offset={ -80 }
-              >
+                offset={ -80 }>
                 Bio
               </NavLinks>
             </NavItem>
