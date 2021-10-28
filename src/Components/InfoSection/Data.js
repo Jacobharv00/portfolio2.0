@@ -15,7 +15,7 @@ export const homeObjBio = {
   //description: '',
   // buttonLabel: 'Demo',
   imgStart: true,
-  img: require( '../../images/me.jpg' ).default,
+  img: require( '../../images/myself.jpg' ).default,
   alt: 'Jacob Harvey',
   dark: true,
   primary: false,
