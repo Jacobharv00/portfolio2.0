@@ -8,7 +8,7 @@
 
 > Browse around and check out my projects. Contact me either by email or on Linkedin. I would love to hear feedback and comments about my projects. If the Blob Fun section doesn't work first try please try refreshing page to play around with some blob action.
 
-### 🏠 [Homepage](https://jacobharv.dev) 🏠 
+### 🏠 [Homepage](https://jacobharvey.dev) 🏠 
 <p>Visit my homepage to check out my portfolio!</p>
 
 ## 💻 [Tech] 💻 
@@ -34,7 +34,7 @@
 
 👤 **Jacob Harvey**
 
-* Website: https://jacobharv.dev
+* Website: https://jacobharvey.dev
 * Github: [@Jacobharv00](https://github.com/Jacobharv00)
 * LinkedIn: [@jacobharvey19](https://linkedin.com/in/jacobharvey19)
 
