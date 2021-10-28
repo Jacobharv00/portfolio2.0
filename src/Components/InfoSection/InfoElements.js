@@ -115,9 +115,27 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 425px;
+  max-width: 400px;
   height: 100%;
 
+  @media screen and (min-width: 300px) {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-bottom: -10vh;
+  }
+
+    @media screen and (max-width: 375px) {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20vh;
+  }
+  
   @media screen and (max-width: 480px) {
     width: 70%;
     justify-content: center;
@@ -144,21 +162,21 @@ export const Img = styled.img`
   border-radius: 25px;
   background-color: #277F91;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 35px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  position: sticky;
   filter: grayscale(25%);
+  position: relative;
   
-
-  
-  @media screen and (max-width: 375px) {
-    max-width: 100%;
-    min-width: 120px;
-    margin-left: 42vw;
-    margin-bottom: 20vh;
+  @media screen and (max-width: 768px) {
+      height: auto;
+      width: 80%;
+      margin-top: -25vh;
+      margin-left: 20vw;
   }
 
-    @media screen and (max-width: 768px) {
-    width: 50%;
-    margin-top: -50vh;
+    @media screen and (max-width: 320px) {
+      margin-top: -36vh;
+      height: auto;
+      width: 100%;
+      margin-right: -30vw;
   }
-  
+
 `
