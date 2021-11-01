@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
-  min-height: 692px;
-  position: fixed;
+  min-height: 690px;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   right: 0;
@@ -25,12 +25,12 @@ export const FormWrap = styled.div`
 `
 
 export const Icon = styled( Link )`
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 32px;
+  margin-top: 32px;
   text-decoration: none;
   color: #F7E3A1;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 3rem;
 
   &:hover {
     color: #383F42;
@@ -43,10 +43,11 @@ export const Icon = styled( Link )`
 `
 
 export const FormContent = styled.div`
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
 
   @media screen and (max-width: 480px) {
     padding: 10px;
@@ -55,7 +56,6 @@ export const FormContent = styled.div`
 
 export const Form = styled.form`
   background: #277F91;
-  max-width: 1200px;
   height: auto;
   width: 100%;
   z-index: 1;
@@ -65,34 +65,31 @@ export const Form = styled.form`
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 1300px) {
     padding: 32px 32px;
-    width: 200px;
   }
 `
 
 export const FormH1 = styled.h1`
   margin-bottom: 40px;
   color: #F7E3A1;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   text-align: center;
 `
 
-export const FormLabel = styled.label`
-  margin-bottom: 0;
-  font-size: 20px;
-  color: #383F42;
-`
+// export const FormLabel = styled.label`
+//   margin-bottom: 8px;
+//   font-size: 18px;
+//   color: #383F42;
+// `
 
 export const FormInput = styled.textarea`
   resize: none;
   padding: 16px 16px;
-  height: 5vh;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
-  font-size: 1.5rem;
 `
 
 export const FormButton = styled.button`
@@ -101,22 +98,19 @@ export const FormButton = styled.button`
   border: none;
   border-radius: 4px;
   color: #F7E3A1;
-  font-size: 25px;
-  font-weight: 800;
+  font-size: 20px;
   cursor: pointer;
 
   &:hover {
     background-color: #F7E3A1;
     color: #383F42;
   }
-
 `
 
 export const Text = styled.span`
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: -20px;
+  margin-top: 24px;
   color: #F7E3A1;
-  font-size: 20px;
+  font-size: 14px;
 `
 

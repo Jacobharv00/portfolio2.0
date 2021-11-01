@@ -49,8 +49,8 @@ export const homeObjOne = {
   </>,
   // buttonLabel: 'Demo',
   imgStart: false,
-  img: require( '../../images/loungezilla.png' ).default,
-  alt: 'loungezilla',
+  // img:,
+  // alt: '',
   dark: false,
   primary: true,
   darkText: false

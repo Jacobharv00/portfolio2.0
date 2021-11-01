@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, FormContent, FormWrap, Icon, Form, FormH1, FormButton, FormLabel, FormInput, Text } from './EmailElements'
+import { Container, FormContent, FormWrap, Icon, Form, FormH1, FormButton, FormInput, Text } from './EmailElements'
 import emailjs from 'emailjs-com'
 
 
@@ -31,13 +31,13 @@ const Email = () => {
               <FormH1>Email Me</FormH1>
               { success === 'OK' && <FormH1>Message Sent!</FormH1> }
               { error === 'error' && <FormH1>Sorry An Error Occurred!</FormH1> }
-              <FormLabel>Name</FormLabel>
+              {/* <FormLabel>Name</FormLabel> */ }
               <FormInput type='text' placeholder='Name' name='name' required />
-              <FormLabel>Subject</FormLabel>
+              {/* <FormLabel>Subject</FormLabel> */ }
               <FormInput type='text' placeholder='Subject' name='subject' required />
-              <FormLabel>Email Address</FormLabel>
+              {/* <FormLabel>Email Address</FormLabel> */ }
               <FormInput type='email' placeholder='Email Address' name='email' required />
-              <FormLabel>Message</FormLabel>
+              {/* <FormLabel>Message</FormLabel> */ }
               <FormInput type='textarea' placeholder='Your Message' name='message' required style={ { height: '15vh' } } />
               <FormButton type='submit' value='Send'>SEND</FormButton>
               <Text>Talk Soon!</Text>
