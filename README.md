@@ -18,8 +18,6 @@
   <li>EmailJS</li>
   <li>React-Icons</li>
   <li>React-Scroll</li>
-  <li>React-Spring</li>
-  <li>React-Use-Measure</li>
   <li>Styled-Components</li>
   <li>CSS</li>
   <li>Netlify</li>
