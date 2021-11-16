@@ -12,7 +12,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={ Video } type='video/mp4' poster={ Waves } />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Welcome To My Portfolio</HeroH1>
+        <HeroH1>Jacob Harvey</HeroH1>
         <HeroP>Full Stack Software Engineer</HeroP>
       </HeroContent>
     </HeroContainer>

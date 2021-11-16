@@ -40,9 +40,14 @@ export const HeroContent = styled.div`
   flex-direction: column;
   align-items: center;
   
-    @media screen and (max-width: 1300px) {
-      margin-top: -70vh;
-    } 
+    @media screen and (max-width: 1440px) {
+      margin-top: -65vh;
+    }
+    
+    @media screen and (max-width: 375px) {
+      margin-top: -80vh;
+    }
+
 `
 
 export const HeroH1 = styled.h1`

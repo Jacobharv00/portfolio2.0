@@ -32,19 +32,31 @@ export const homeObjOne = {
   description: <>
     <a className='nav-link' href="https://loungezilla.herokuapp.com" target="_blank" rel="noreferrer">
       <GiDinosaurRex className='icon' />
-      <span className='nav-text'>LOUNGEZILLA</span>
+      <span className='nav-text'>
+        LOUNGEZILLA
+        <a className='nav-text' href='https://github.com/Jacobharv00/loungezilla' target='_blank' rel='noreferrer'>Github</a>
+      </span>
     </a>
     <a className='nav-link' href="https://movie-lounge.netlify.app" target="_blank" rel='noreferrer'>
       <GiFilmProjector className='icon' />
-      <span className='nav-text'>Movie Lounge</span>
+      <span className='nav-text'>
+        Movie Lounge
+        <a className='nav-text' href='https://github.com/Jacobharv00/movie-lounge' target='_blank' rel='noreferrer'>Github</a>
+      </span>
     </a>
     <a className='nav-link' href="https://jacobharv-future.netlify.app" target="_blank" rel='noreferrer'>
       <FaUserAstronaut className='icon' />
-      <span className='nav-text'>Future</span>
+      <span className='nav-text'>
+        Future
+        <a className='nav-text' href='https://github.com/Jacobharv00/future' target='_blank' rel='noreferrer'>Github</a>
+      </span>
     </a>
     <a className='nav-link' href="https://harvey-hangman.netlify.app" target="_blank" rel="noreferrer">
       <GiWalk className='icon' />
-      <span className='nav-text'>Hangman</span>
+      <span className='nav-text'>
+        Hangman
+        <a className='nav-text' href='https://github.com/Jacobharv00/hangman' target='_blank' rel='noreferrer'>Github</a>
+      </span>
     </a>
   </>,
   // buttonLabel: 'Demo',
