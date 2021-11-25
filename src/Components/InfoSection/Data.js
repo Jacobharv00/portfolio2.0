@@ -1,4 +1,4 @@
-import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja, FaUserAstronaut } from "react-icons/fa"
+import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja, FaShoppingCart } from "react-icons/fa"
 import { DiRubyRough, DiRor, DiHeroku, DiPostgresql, DiSqllite, DiGithubBadge, DiCss3, DiVisualstudio } from 'react-icons/di'
 import { SiNetlify, SiStyledcomponents, SiMaterialui } from 'react-icons/si'
 import { AiFillHtml5 } from 'react-icons/ai'
@@ -37,18 +37,18 @@ export const homeObjOne = {
         <a className='nav-text' href='https://github.com/Jacobharv00/loungezilla' target='_blank' rel='noreferrer'>Github</a>
       </span>
     </a>
+    <a className='nav-link' href="https://eboss.netlify.app" target="_blank" rel='noreferrer'>
+      <FaShoppingCart className='icon' />
+      <span className='nav-text'>
+        E-Boss
+        <a className='nav-text' href='https://github.com/Jacobharv00/e-commerce' target='_blank' rel='noreferrer'>Github</a>
+      </span>
+    </a>
     <a className='nav-link' href="https://movie-lounge.netlify.app" target="_blank" rel='noreferrer'>
       <GiFilmProjector className='icon' />
       <span className='nav-text'>
         Movie Lounge
         <a className='nav-text' href='https://github.com/Jacobharv00/movie-lounge' target='_blank' rel='noreferrer'>Github</a>
-      </span>
-    </a>
-    <a className='nav-link' href="https://jacobharv-future.netlify.app" target="_blank" rel='noreferrer'>
-      <FaUserAstronaut className='icon' />
-      <span className='nav-text'>
-        Future
-        <a className='nav-text' href='https://github.com/Jacobharv00/future' target='_blank' rel='noreferrer'>Github</a>
       </span>
     </a>
     <a className='nav-link' href="https://harvey-hangman.netlify.app" target="_blank" rel="noreferrer">

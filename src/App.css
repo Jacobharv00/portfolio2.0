@@ -42,9 +42,10 @@
 
 a {
   text-decoration: none;
+  color: green;
 }
 
-.nav-link:hover .nav-text {
+.nav-link:hover .nav-text{
   transform: translateX(0);
   visibility: visible;
   color:#277F91;
