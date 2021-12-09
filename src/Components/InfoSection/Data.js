@@ -1,4 +1,4 @@
-import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja, FaShoppingCart } from "react-icons/fa"
+import { FaJsSquare, FaReact, FaLinkedin, FaGithubAlt, FaMedium, FaEnvelope, FaUserNinja, FaShoppingCart, FaCcStripe } from "react-icons/fa"
 import { DiRubyRough, DiRor, DiHeroku, DiPostgresql, DiSqllite, DiGithubBadge, DiCss3, DiVisualstudio } from 'react-icons/di'
 import { SiNetlify, SiStyledcomponents, SiMaterialui } from 'react-icons/si'
 import { AiFillHtml5 } from 'react-icons/ai'
@@ -74,7 +74,7 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Skills',
-  headline: 'JavaScript | React | Ruby | Rails | Heroku | Netlify | GitHub | SQLite3 | PostgresQL | Styled Components | Material UI | CSS | HTML | Visual Studio',
+  headline: 'JavaScript | React | Ruby | Rails | Heroku | Netlify | GitHub | SQLite3 | PostgreSQL | Styled Components | Material UI | CSS | HTML | Visual Studio | Commerce.js | Stripe.js',
   description: <>
     <FaJsSquare />
     <FaReact />
@@ -90,6 +90,8 @@ export const homeObjTwo = {
     <DiCss3 />
     <AiFillHtml5 />
     <DiVisualstudio />
+    <FaShoppingCart />
+    <FaCcStripe />
   </>,
   // buttonLabel: 'Skills',
   imgStart: true,
